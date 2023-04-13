@@ -12,6 +12,13 @@ document.querySelector('#menu-btn').onclick = () =>{
   searchForm.classList.remove('active');
 }
 
+const img = document.querySelector('.img-container img');
+
+img.addEventListener('click', () => {
+  img.classList.toggle('fullscreen');
+});
+
+
 // scroll spy 
 let section = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('.header .navbar a');
