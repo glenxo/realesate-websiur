@@ -2,7 +2,7 @@
 
 :root{
     --main-color:#575656;
-    --black:#dbdbdb;
+    --black:#000000;
 }
 
 *{
@@ -315,10 +315,11 @@ section{
 }
 
 .about{
-    background: url(../image/about-bt.jpg) no-repeat;
+    background: url(/media/panama-g7033e7dbb_1280.jpg) no-repeat;
     background-position: center;
     background-size: cover;
 }
+
 
 .about .content{
     padding:13rem 0;
